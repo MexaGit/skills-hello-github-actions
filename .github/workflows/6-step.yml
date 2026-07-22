@@ -1,0 +1,15 @@
+name: Step 6
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  start_exercise:
+    name: "My first action in the github worflow"
+    uses: MexaGit/skills-hello-github-actions/new/main/.github/workflows/6-step.yml
+    with:
+      excecise-title: "Github Actions"
+      intro-message: "Hi all"
+    
