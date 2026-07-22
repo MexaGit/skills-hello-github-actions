@@ -1,9 +1,15 @@
 name: Step 6
 
+
 on:
-  push:
-    branches:
-      - main
+  workflow_call:
+    inputs:
+      exercise-title:
+        required: true
+        type: string
+      intro-message:
+        required: true
+        type: string
 
 jobs:
   start_exercise:
