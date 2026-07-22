@@ -8,7 +8,7 @@ on:
 jobs:
   start_exercise:
     name: "My first action in the github worflow"
-    uses: MexaGit/skills-hello-github-actions/.github/workflows/6-step.yml@1.0.0
+    uses: MexaGit/exercise-toolkit/.github/workflows/6-step.yml@1.0.0
     with:
       excecise-title: "Github Actions"
       intro-message: "Hi all"
